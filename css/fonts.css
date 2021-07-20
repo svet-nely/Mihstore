@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Hercules Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hercules Medium'),
+  url('../fonts/Hercules-Medium.woff2') format('woff2'),
+  url('../fonts/Hercules-Medium.woff') format('woff'),
+  url('../fonts/Hercules-Medium.ttf') format('ttf'),
+  url('../fonts/Hercules-Medium.eot') format('eot');
+}
