@@ -1,5 +1,4 @@
 * {
-  outline: 1px solid green;
   box-sizing: border-box;
 }
 
@@ -8,6 +7,11 @@ body {
   font-family: "Calibri";
   font-size: 0.875rem;
   color: #ababab;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .background {
@@ -68,37 +72,15 @@ body {
 }
 
 .social-btn li {
-  background-repeat: no-repeat;
-  opacity: 0.3;
-  min-width: 49px;
-  min-height: 49px;
   padding: 0;
 }
 
-.social-btn-rss {
-  background-image: url('../img/1315083792_rss.png');
-  background-position: right;
-
+.social-btn li a {
+  padding: 0;
 }
 
-.social-btn-mysp {
-  background-image: url('../img/1315083804_myspace.png');
-  background-position: right;
-}
-
-.social-btn-stmbl {
-  background-image: url('../img/1315083784_stumbleupon.png');
-  background-position: right;
-}
-
-.social-btn-fb {
-  background-image: url('../img/1315083788_facebook.png');
-  background-position: right;
-}
-
-.social-btn-tw {
-  background-image: url('../img/1315083791_twitter.png');
-  background-position: right;
+.social-btn li a:hover {
+  opacity: 0.3;
 }
 
 .menu {
@@ -438,6 +420,11 @@ body {
   font-size: 1rem;
   color: #4cb1ca;
 }
+
+.h3 a:hover {
+ color: #6bcbe3;
+}
+
 .best-card-description {
   font-size: 0.75rem;
   color: #c3c3c3;
@@ -570,10 +557,11 @@ body {
   font-size: 1rem;
   color: #818181;
 }
-.products-card-title {
-  margin: 0;
-  padding: 0;
+
+.products-card-title a:hover {
+  color: #4cb1ca;
 }
+
 .products-card-price {
   font-size: 0.875rem;
   font-weight: bold;
